@@ -1,0 +1,313 @@
+
+.maindiv {
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color: black;
+}
+
+.logo {
+    width: 160px;
+    height: 70px;
+}
+
+.btn1 {
+    border: 1px solid white;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.btn2 {
+    border: 1px solid #ce0a11;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ed1c24;
+    color: white;
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+.btn2 i {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 6px 7px;
+    border-radius: 23px;
+    margin-left: 7px;
+}
+
+.indi {
+    background-color: transparent;
+}
+
+.brands-section {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+    padding-top: 70px;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.heading p {
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.snp {
+ font-family: 'Black Ops One';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 8px;
+    font-size: 50px;
+}
+
+.brand-list {
+  display: flex;
+  justify-content: center;
+}
+
+.restaurant > img , .express > img , .village > img {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.order-btn {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 35px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-left: 47px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+#btn-div {
+    width: 250px;
+}
+
+.r-franchises {
+    background: rgba(3, 3, 3, 0.96);
+    background-image: url(images/r-franchise.webp);
+    background-position-x: 97%;
+    background-position-y: 5%;
+    background-repeat: no-repeat;
+    color: white;
+    }
+
+    .city {
+        color: #ED1C24;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.5em;
+        margin-bottom: 8px;
+    }
+
+    .cities p {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .directions-btn button {
+        padding: 10px 15px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50px;
+        color: white;
+        font-weight: 600;
+        background-color: transparent;
+    }
+    
+    .directions-btn button i {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 6px 7px;
+    border-radius: 23px;
+    margin-left: 7px;
+    }
+
+    .e-franchises {
+        background-color: black;
+        background-image: url(images/e-franchise.webp);
+        background-position-x: 50%;
+        background-position-y: 10%;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        color: white;
+        height: auto;
+    }
+    
+    
+.v-franchises {
+    background: rgba(0, 0, 0);
+    color: white;
+    padding: 80px 10px 10px 10px;
+}
+
+.footr {
+    background-color: black;
+}
+
+@media only screen and (max-width:400px) {
+    .logo {
+        width: 120px;
+        height: 60px;
+    }
+
+    .heading h2 {
+        line-height: 28px;
+        font-size: 24px;
+    }
+    
+    .snp {
+           font-size: 24px;
+       }
+
+       .brr {
+        display: none;
+       }
+
+       .colr {
+        display: flex;
+        flex-direction: column-reverse;
+       }
+
+}
+
+.brands-section {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: black;
+    width: 100%;
+    padding: 70px 15px;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.heading p {
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.snp {
+    font-family: 'Black Ops One', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 8px;
+}
+
+.brand-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px; /* Space between items */
+}
+
+.restaurant > img, .express > img, .village > img {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    max-width: 100%; /* Ensures images are responsive */
+    transition: transform 0.3s ease; /* Hover effect transition */
+}
+
+.restaurant > img:hover, .express > img:hover, .village > img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.order-btn {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 35px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 40px;
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+.order-btn:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+#btn-div {
+    text-align: center;
+}
+
+/* RESPONSIVE STYLING */
+@media (max-width: 992px) {
+    .heading h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .snp {
+        font-size: 40px;
+    }
+
+    .brand-list {
+        gap: 15px;
+    }
+
+    .order-btn {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .snp {
+        font-size: 36px;
+    }
+
+    .order-btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
